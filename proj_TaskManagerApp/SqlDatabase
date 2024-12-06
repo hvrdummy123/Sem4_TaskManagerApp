@@ -1,0 +1,16 @@
+create database db_intern;
+use db_intern;
+
+create table list (task_id int primary key auto_increment,tasks varchar(300),listname varchar(50), date date,late varchar(10),status varchar(10),imp varchar(10));
+
+insert into list(tasks,listname,date,late) values 
+("Asmt 1","COA","2024-04-06",""),
+("Asmt 2","COA","2024-04-06",""),
+("Asmt 3","COA","2024-04-06",""),
+("Proj","MPMC","2024-03-28","Late"),
+("Assignment","MPMC","2024-03-30","Late"),
+("Report","MPMC","2024-04-06",""),
+("Proj + Report","DBMS","2024-03-30","Late"),
+("Lab Exam","DAA","2024-04-01","Late"),
+("Proj + Report","OOPJ","2024-03-30","Late"),
+("Proj + Report","WP","2024-04-02","");
